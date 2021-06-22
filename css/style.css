@@ -17,9 +17,9 @@
     /* --headingSize: clamp(.5rem, 9vh, 88px);
     --subheadingSize: 42px; */
     --textSize: 1.6rem;
-
 }
 
+/* ______________________________________________Globals */
 
 html{
   box-sizing: border-box;
@@ -55,10 +55,15 @@ p{
 ul{
   padding: 5vw;;
 }
+
 .container{
-  width: 90vw;
+  width: 100vw;
   margin: 0 auto;
+  overflow-x: hidden;
 }
+
+/* ________________________________________________________________ */
+
 
 .elipse{
   position: absolute;
@@ -77,16 +82,34 @@ ul{
   align-items: center;
   margin-top: 40px;
 }
+/* __________________________________________________________- MENU */
+
+#menu{
+  display: none; 
+}
+
+.slicknav_menu{
+
+}
+/* ________________________________________________________________ */
+
+
 section{
   position: relative;
-  margin-bottom: 15vh;
-}
+  margin-bottom: 15vh;}
+  /* __________________________________________________TEXT CONTAINER */
+
+  .text_container{
+    width: 90vw;
+    margin: 0 auto;
+  }
+
 /*  ______________________________________________________________SECTION ONE section */
 
 .hero{
   position: relative;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 
   /* display: flex;
   justify-content: space-between; */
