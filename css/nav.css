@@ -7,12 +7,18 @@
   .nav-ul{
     list-style: none;
   }
+  .nav-ul a{
+    text-decoration: none;
+    color: var(--dark);
+    font-family: var(--nav-font);
+    font-variant: small-caps;/*  */
+    margin-left: 20px;
+  }
   #menu{
     display: none; 
   }
   @media screen 
     and (min-device-width: 1200px) 
-    and (max-device-width: 1600px) 
     and (-webkit-min-device-pixel-ratio: 1) { 
       #menu{
         display: flex;  
@@ -27,6 +33,14 @@
         justify-content: space-between;
       }
   }
+
+  @media screen 
+    and (min-device-width: 1400px) 
+    and (-webkit-min-device-pixel-ratio: 1){
+      .nav-and-logo-container{
+        width: 1200px; 
+      }
+    }
   
   .slicknav_menu{
    

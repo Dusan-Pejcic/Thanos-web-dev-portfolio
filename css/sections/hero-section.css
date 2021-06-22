@@ -11,7 +11,7 @@
 }
 
 .thanos-illustration{
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
@@ -34,7 +34,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
   .hero-image-and-text-container{
     width: 960px;
-    margin: 20vh auto 0 auto;
+    margin: 15vh auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -54,3 +54,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
   
  }
 }
+@media screen 
+    and (min-device-width: 1400px) 
+    and (-webkit-min-device-pixel-ratio: 1){
+      .hero-image-and-text-container{
+        width: 1200px;
+        
+      }
+    }

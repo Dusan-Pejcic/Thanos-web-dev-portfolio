@@ -27,11 +27,13 @@
   }
   
   .dark-mission{
-  
+    width: 100%;
+    background-color: transparent;
   }
-  
-  .dark{
+ 
+  p.dark{
     font-weight: 600;
+    color: var(--dark);
   }
 
   .why-elipse-white-small{
@@ -46,3 +48,34 @@
     top: 90vh;
     z-index: -9;
   }
+
+  @media screen 
+and (min-device-width: 1200px)  
+and (-webkit-min-device-pixel-ratio: 1) {  
+  .mission-ul{
+    padding-left: 20px;
+    columns: 2;
+    column-gap: 40px;
+  }
+  .first-p{
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .dark-mission{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px;
+    width: 95%;
+    height: 25vh;
+    background-color: var(--dark);
+  }
+ 
+  p.dark{
+    width: 40%;
+    font-weight: 300;
+    color: white;
+    font-family: lora;
+  }
+}
