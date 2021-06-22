@@ -1,0 +1,48 @@
+/* __________________________________________MISSION section */
+.mission-ul{
+    padding-left: 5vw;
+  }
+  
+  .mission-elipse-purple{
+    width: 60px;
+    left: 70%;
+    margin-top: -120px;
+    z-index: -9;
+  }
+  
+  .mission-elipse-pink{
+    width: 90px;
+    left: 70%;
+    top: 80vh;
+    z-index: -9;
+  }
+  
+  .mission-elipse-white{
+    width: 200vw;
+    left: -50vh;
+  }
+  
+  .mission span{
+    margin-bottom: 20px;
+  }
+  
+  .dark-mission{
+  
+  }
+  
+  .dark{
+    font-weight: 600;
+  }
+
+  .why-elipse-white-small{
+    width: 120px;
+    left: 55vw;
+    top: -50px;
+  }
+  
+  .why-elipse-purple{
+    width: 120px;
+    left: 55vw;
+    top: 90vh;
+    z-index: -9;
+  }
