@@ -1,5 +1,18 @@
 /*  ______________________________________________________________SECTION ONE section */
+.hero-text {
+  font-family: var(--headings);
+  line-height: 1.5;
+  font-size: 3.7em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
 
+.hero-h1 {
+  font-family: var(--text);
+  line-height: 2;
+  max-width: 100%;
+  font-size: 18px;
+}
 .hero-image-container{
 
 }
@@ -34,19 +47,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
   .hero-image-and-text-container{
     width: 960px;
-    margin: 15vh auto 0 auto;
+    margin: 12vh auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
   
   .hero-image-container{
-    flex: 2;
+    flex: 3;
     order: 2;
   }
 
   .text_container{
-    flex: 1;
+    flex: 2;
     order: 1;
   }
 
