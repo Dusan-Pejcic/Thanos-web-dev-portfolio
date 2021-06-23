@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap');
 @import url("index.css");
 :root {
 
@@ -57,25 +58,6 @@ p{
   max-width: 100%;
 }
 
-
-@media screen 
-and (min-device-width: 1200px)  
-and (-webkit-min-device-pixel-ratio: 1) { 
-  h1, h2{
-    font-size: 86px;
-  }
-
-  h3{
-    font-size: 42px;
-    max-width: 60vw;
-  }
-
-  p{
-    max-width: 40vw;
-    font-size: 18px;
-  }
-}
-
 ul{
   padding-left: 0;
 }
@@ -91,6 +73,28 @@ section{
     position: absolute;
     z-index: -10;
   }
+
+  @media screen 
+and (min-device-width: 1200px)  
+and (-webkit-min-device-pixel-ratio: 1) { 
+  h1, h2{
+    font-size: 86px;
+  }
+
+  h3{
+    font-size: 42px;
+    max-width: 60vw;
+  }
+
+  p{
+    max-width: 40vw;
+    font-size: 18px;
+  }
+
+  section{
+    position: relative;
+    margin-bottom: 25vh;}
+}
   
   /* __________________________________________________CONTAINERS */
 

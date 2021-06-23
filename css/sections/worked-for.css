@@ -24,6 +24,7 @@
   }
   
   .worked-for-logo-container{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -31,4 +32,23 @@
   .client-logo{
     width: 40%;
     margin-bottom: 60px;
+  }
+
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .worked-for-elipse-white{
+      width: 100vw;
+      top: -30vh;
+      left: 20vw;
+    }
+    .worked-for-logo-container{
+      width: 50%;
+      padding-top: 10vh;
+    }
+    .client-logo{
+      width: 28%;
+      margin-bottom: 60px;
+    }
   }

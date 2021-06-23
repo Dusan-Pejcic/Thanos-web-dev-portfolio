@@ -1,0 +1,28 @@
+blockquote {
+    margin: 0;
+   
+}
+
+blockquote p {
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+    
+}
+
+.blockquote-container{
+    border-left: 5px solid var(--purple);
+    padding-left: 60px;
+    margin: 120px 0; 
+}
+
+figcaption{
+    font-size: 18px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}

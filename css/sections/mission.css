@@ -51,7 +51,12 @@
 
   @media screen 
 and (min-device-width: 1200px)  
-and (-webkit-min-device-pixel-ratio: 1) {  
+and (-webkit-min-device-pixel-ratio: 1) { 
+  .mission-elipse-white{
+    width: 150vw;
+    left: -60vw;
+    top: -30vh;
+  } 
   .mission-ul{
     padding-left: 20px;
     columns: 2;
