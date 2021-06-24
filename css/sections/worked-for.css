@@ -43,6 +43,23 @@
       top: -30vh;
       left: 20vw;
     }
+
+    .worked-for-elipse-purple{
+      width: 250px;
+      left: 750px;
+      top: 200vh;
+    
+      z-index: -9;
+    
+    }
+    
+    .worked-for-elipse-pink{
+      width: 320px;
+      right: 200px;
+      top: 130vh;
+    
+      z-index: -9;
+    }
     .worked-for-logo-container{
       width: 50%;
       padding-top: 10vh;
