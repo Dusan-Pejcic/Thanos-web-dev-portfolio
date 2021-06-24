@@ -64,10 +64,15 @@ ul{
 li::marker{
   color: var(--purple);
 }
+main{
+  position: relative;
+  z-index: 1;
+}
 
 section{
   position: relative;
-  margin-bottom: 15vh;}
+  margin-bottom: 15vh;
+}
 
   .elipse{
     position: absolute;
