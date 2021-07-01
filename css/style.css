@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap');
 @import url("index.css");
+
+@font-face {
+  font-family: "Amatic";
+  src: url("../fonts/AmaticSC-Regular.ttf");
+  
+  }
 :root {
 
   /* ____________________________ COLORS */
@@ -24,7 +30,9 @@
 }
 
 /* ______________________________________________Globals */
-
+h5 {
+  font-family: 'Amatic';
+}
 html{
   box-sizing: border-box;
   font-size: 62.5%; /*now 1rem is 10px*/
